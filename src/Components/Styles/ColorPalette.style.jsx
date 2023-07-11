@@ -10,4 +10,6 @@ export const Steelgrey = '#E2E6E9';
 
 export const Lightgrey = '#F2F2F2';
 
+export const Grey = '#939191';
+
 export const White = '#FFFFFF';

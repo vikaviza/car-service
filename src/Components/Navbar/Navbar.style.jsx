@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
+import { ReactComponent as Logo } from '../../assets/img/Logo1.svg';
 import * as color from '../Styles/ColorPalette.style';
 import * as text from '../Styles/Text.style';
 
@@ -10,10 +11,7 @@ export const Nav = styled.nav`
     justify-content: space-around;
 `;
 
-export const Logo = styled.img`
-    width: 121px; 
-    height: 27.4px;  
-
+export const Logo1 = styled(Logo)`
     &:hover {
         cursor: pointer;
     }
@@ -31,6 +29,7 @@ export const NavLink = styled(Link)`
     text-decoration: none;
     font-weight: 600;
     ${text.Body02};
+    opacity: 1;
 `;
 
 export const Assistance = styled.div`

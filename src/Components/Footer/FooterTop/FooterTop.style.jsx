@@ -9,6 +9,7 @@ export const FooterT = styled.div`
     color: ${color.White};
     padding-block: 128px;
     display: flex;
+    opacity: 0.9800000190734863;
 `;
 
 export const FooterLeft = styled.div`
