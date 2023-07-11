@@ -3,20 +3,21 @@ import {
     Nav,
     NavMenu,
     NavLink,
+    Logo1,
     Assistance,
     AssistanceIcon,
-    Logo,
     Text,
     Top,
     Bottom
 } from './Navbar.style';
 
 
+
 const Navbar = () => {
     return (
         <Nav>
             <NavLink to='/'>
-                <Logo src={require('../../assets/img/logo.png')} alt='' />
+                <Logo1 />
             </NavLink>
 
             <NavMenu>

@@ -3,14 +3,12 @@ export const Body01 = `
     font-style: normal;
     font-weight: 600;
     line-height: 175%;
-    opacity: 0.6000000238418579;
 `
 
 export const Body02 = `
     font-size: 16px;
     line-height: 28px;
     color: #1E1B1B;
-    opacity: 0.6000000238418579;
 `
 
 export const Caption = `
