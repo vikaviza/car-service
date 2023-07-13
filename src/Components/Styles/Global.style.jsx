@@ -6,13 +6,13 @@ const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    body {
+    html, body {
         font-family: 'Manrope', sans-serif;
         display: block;
         margin: auto;
         padding: 0;
-        max-width: 1924px;
-
+        width: 1924px;
+        min-height: 100vh;
 }
 `
 

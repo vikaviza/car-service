@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from '../../Components/Navbar/Navbar';
+import CTA from '../../Components/CTA/CTA';
 import Button from '../../Components/Styles/Buttons/Button/Button';
 import ProcessCircle from '../../Components/Styles/ProcessCircle/ProcessCircle';
 import {
@@ -59,7 +60,20 @@ import {
 } from './HomeProcess.style';
 
 import {
-    Offer
+    Offer,
+    OfferTitle,
+    OfferHeading,
+    OfferGrid,
+    GridItem,
+    Title024,
+    StyledDiagnostics,
+    StyledEngine,
+    StyledWheel,
+    StyledOil,
+    StyledBody,
+    StyledBatteries,
+    StyledInsurance,
+    StyledService
 } from './HomeOffer.style.jsx'
 
 const Home = () => {
@@ -229,8 +243,44 @@ const Home = () => {
                 </ProcessRight>
             </Process>
             <Offer>
-
+                <OfferTitle>What we Offer</OfferTitle>
+                <OfferHeading>We offer full service auto repair & maintenance</OfferHeading>
+                <OfferGrid>
+                    <GridItem>
+                        <StyledDiagnostics />
+                        <Title024>Diagnostics</Title024>
+                    </GridItem>
+                    <GridItem>
+                        <StyledEngine />
+                        <Title024>Engine Repair</Title024>
+                    </GridItem>
+                    <GridItem>
+                        <StyledWheel />
+                        <Title024>Wheel Repair</Title024>
+                    </GridItem>
+                    <GridItem>
+                        <StyledOil />
+                        <Title024>Oil Filter</Title024>
+                    </GridItem>
+                    <GridItem>
+                        <StyledBody />
+                        <Title024>Body Work</Title024>
+                    </GridItem>
+                    <GridItem>
+                        <StyledBatteries />
+                        <Title024>Batteries</Title024>
+                    </GridItem>
+                    <GridItem>
+                        <StyledInsurance />
+                        <Title024>Insurance Claim</Title024>
+                    </GridItem>
+                    <GridItem>
+                        <StyledService />
+                        <Title024>Custom Service</Title024>
+                    </GridItem>
+                </OfferGrid>
             </Offer>
+            <CTA />
         </>
     );
 };

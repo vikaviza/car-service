@@ -5,7 +5,6 @@ import * as heading from '../../Components/Styles/Headings.style';
 import { ReactComponent as Circle } from '../../assets/img/ProcessCircle.svg'
 
 export const Process = styled.div`
-    width: 1087px;
     height: 527px;
     margin: 128px 513px 128px 320px;
     display: flex;
@@ -15,6 +14,7 @@ export const Process = styled.div`
 export const ProcessLeft = styled.div`
     width: 524px;
     height: 396px;
+    margin-right: 131px;
 `;
 
 export const Body024 = styled.p`
