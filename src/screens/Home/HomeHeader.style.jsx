@@ -8,7 +8,6 @@ import { ReactComponent as Image } from '../../assets/img/Header.svg';
 
 // HEADER
 export const Header = styled.header`
-    width: 1300px;
     height: 632px;
     display: flex;
     margin: 80px 320px 128px 320px;

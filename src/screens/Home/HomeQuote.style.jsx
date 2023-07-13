@@ -6,7 +6,6 @@ import { ReactComponent as Circle } from '../../assets/img/Circle.svg';
 import { ReactComponent as Arrow } from '../../assets/img/Arrow.svg';
 
 export const Quote = styled.div`
-    width: 1922px;
     height: 894px;
     background-color: ${color.Steelgrey};
     display: flex;
