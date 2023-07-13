@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
         display: block;
         margin: auto;
         padding: 0;
-        width: 1924px;
+        max-width: 1924px;
 
 }
 `
