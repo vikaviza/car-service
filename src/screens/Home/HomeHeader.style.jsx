@@ -75,13 +75,12 @@ export const Rating = styled.div`
     justify-content: space-between;
     padding: 32px;
     background-color: ${color.White};
-    border: 12px solid rgba(225, 225, 225, 0.43);
+    border: 12px solid rgba(225, 225, 225,.5);
     box-shadow: 0px 28px 118px 0px rgba(109, 108, 115, 0.12);
     border-radius: 59px;
     position: absolute;
     bottom: 81px;
     right: 0;
-    z-index: 1;
 `;
 
 export const RatingText = styled.div`

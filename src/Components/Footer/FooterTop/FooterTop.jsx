@@ -41,7 +41,7 @@ const FooterTop = () => {
                 </Help>
                 <Address>
                     <Address1>Address</Address1>
-                    <Address2>NH 234 Publick Square San Francisco 65368</Address2>
+                    <Address2>NH 234 Public Square San Francisco 65368</Address2>
                 </Address>
                 <OpenTime>
                     <OpenTime1>We are open</OpenTime1>
