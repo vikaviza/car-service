@@ -22,7 +22,7 @@ export const Orange = styled.div`
     width: 729px;
     position: absolute;
     z-index: 2;
-    margin-left: 398px;
+    margin-left: 318px;
     display: flex;
     flex-direction: column;
     padding: 128px 80px;

@@ -4,16 +4,16 @@ const GlobalStyles = createGlobalStyle`
 
     * {
         box-sizing: border-box;
+        margin: 0;
+        padding: 0;
     }
 
-    html, body {
+    body {
+        width: 1920px;
+        height: 100%;
+        margin: 0 auto;
         font-family: 'Manrope', sans-serif;
-        display: block;
-        margin: auto;
-        padding: 0;
-        width: 1924px;
-        min-height: 100vh;
 }
-`
+`;
 
 export default GlobalStyles;
