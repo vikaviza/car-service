@@ -74,7 +74,25 @@ import {
     StyledBatteries,
     StyledInsurance,
     StyledService
-} from './HomeOffer.style.jsx'
+} from './HomeOffer.style.jsx';
+
+import {
+    Experience,
+    Number,
+    ExpTitle02,
+    ExpH2
+} from './HomeExp.style.jsx';
+
+import {
+    Brands,
+    BrandsHeadingH3,
+    BrandRow,
+    StyledBrandLogo1,
+    StyledBrandLogo2,
+    StyledBrandLogo3,
+    StyledBrandLogo4,
+    StyledBrandLogo5
+} from './HomeBrands.style.jsx';
 
 const Home = () => {
     return (
@@ -281,6 +299,41 @@ const Home = () => {
                 </OfferGrid>
             </Offer>
             <CTA />
+            <Experience>
+                <Number>
+                    <ExpH2>20+</ExpH2>
+                    <ExpTitle02>Proffesional</ExpTitle02>
+                </Number>
+                <Number>
+                    <ExpH2>10+</ExpH2>
+                    <ExpTitle02>Years Eperience</ExpTitle02>
+                </Number>
+                <Number>
+                    <ExpH2>12K+</ExpH2>
+                    <ExpTitle02>Service Closed</ExpTitle02>
+                </Number>
+                <Number>
+                    <ExpH2>100%</ExpH2>
+                    <ExpTitle02>Customer Satisfaction</ExpTitle02>
+                </Number>
+            </Experience>
+            <Brands>
+                <BrandsHeadingH3>Brands we Serve</BrandsHeadingH3>
+                <BrandRow>
+                    <StyledBrandLogo1 />
+                    <StyledBrandLogo2 />
+                    <StyledBrandLogo3 />
+                    <StyledBrandLogo4 />
+                    <StyledBrandLogo5 />
+                </BrandRow>
+                <BrandRow>
+                    <StyledBrandLogo1 />
+                    <StyledBrandLogo2 />
+                    <StyledBrandLogo3 />
+                    <StyledBrandLogo4 />
+                    <StyledBrandLogo5 />
+                </BrandRow>
+            </Brands>
         </>
     );
 };
